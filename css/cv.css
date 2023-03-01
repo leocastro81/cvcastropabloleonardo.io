@@ -1,0 +1,234 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; /*tamaño de fuente */
+    line-height: 20px; /*separación ente linea y linea de texto*/
+}
+header{
+    background-color: #199d9f; /*color de fondo*/
+    text-align: center;
+
+}
+
+header h1{
+    color: white; /*color de la tipo*/
+    font-size: 36px; /*tamaño de la fuente*/
+    font-style: italic; /*estilo*/
+    font-weight: 100; /*el peso de la letra puede ir de 100 a 900 y es similar a poner en negrita*/
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+nav{
+    background-color: #df5893;
+    margin-bottom: 20px;
+    
+
+}
+nav ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 24%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none; 
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    background-color: none;
+
+}
+
+
+nav ul li a:hover{
+    background-color: rgb(246, 110, 205);
+}
+
+nav ul li a.activo{
+    background-color: rgb(246, 110, 205);
+}
+
+footer{
+    background-color: #ccc;
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.holder{
+    max-width:960px;
+    margin: 0 auto; 
+
+}
+
+h2{
+    color: rgb(8, 172, 158);
+    font-weight: 500;
+}
+
+.columnas{
+    overflow: hidden;
+}
+
+/*INICIO DE SECCION HOME*/
+
+.bienvenidos{
+    
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.testimonios{
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+}
+.bienvenidos p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.titulo{
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.titulo .cuerpo{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+}
+
+
+
+/*FIN DE SECCION HOME*/
+
+/*INICIO DE SECCION CARGOS/CURSOS*/
+
+.historia p{
+    font-size: 14px;
+}
+
+.datos{
+    overflow: hidden;
+}
+
+.dato{
+    width: 28%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    float: left;
+    margin-left: 8%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.dato img{
+    border-radius: 50%;
+    max-width: 70%;
+    box-shadow: 0 0 15px rgb(246, 110, 205);
+    margin: 25px 0 20px;
+}
+
+.dato h5, 
+.dato h6{
+    font-weight: bold;
+    color: steelblue;
+    margin: 0;
+
+}
+.dato h5{
+    font-size: 14px;
+}
+
+.dato h6{
+    font-size: 13px;
+    font-style: italic;
+
+}
+ 
+.dato p{
+    font-size: 12px;
+    margin: 0 16px 16px;
+    line-height: 12px;
+}
+
+.dato:first-child{
+    margin-left: 0;
+}
+/*FIN DE SECCION CARGOS/CURSOS*/
+
+/*INICIO DE SECCION CONTACTO*/
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.columna.left{
+    border-right: 2px solid #ccc;
+}
+
+.columna.right{
+    padding-left: 20px;
+}
+
+.columna.right ul{
+    font-size: 14px;
+
+}
+
+.formulario label{
+    width: 24%;
+    /* background-color: yellow; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.formulario input, 
+.formulario textarea{
+    background-color: #ccc;
+    border-radius: 5px;
+    border: 1px solid #999;
+    width:  70%; 
+    padding: 5px;
+    font-size: 14px;
+
+}
+
+.formulario textarea{
+    resize: none;
+    height: 70px;
+}
+
+.formulario input[type=submit]{
+    background-color: #69dbdd;
+    box-shadow: 0 0 15px #ccc;
+    width: auto;
+    padding: 8px;
+}
+
+.acciones{
+    text-align: center;
+}
+
+
+/*FIN DE SECCION CONTACTO*/
